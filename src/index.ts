@@ -4,7 +4,7 @@ import { join } from "node:path";
 
 const DIR_2_ROUTE_ROOT = process.env.DIR_2_ROUTE_ROOT || "public";
 
-const pageRoutes = {};
+const pageRoutes: {} | {[key: string]: (req: IncomingMessage, res: ServerResponse<IncomingMessage>) => void} = {};
 async function addPagePath(route: string, path: string) {
   if (route === "") route = "/";
   const document = await readFile(path, "utf-8");
