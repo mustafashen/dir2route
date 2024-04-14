@@ -1,6 +1,6 @@
 {
   "name": "dir2route",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple directory based route generator",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
