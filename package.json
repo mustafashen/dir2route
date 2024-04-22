@@ -1,9 +1,10 @@
 {
   "name": "dir2route",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple directory based route generator",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
+  "repository": "https://github.com/mustafashen/dir2route",
   "scripts": {
     "build": "tsc"
   },
